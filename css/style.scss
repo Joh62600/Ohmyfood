@@ -53,7 +53,33 @@
     }
 
 }
+/* animation menu*/
 
+
+.entree {
+    animation: anim_menu_card 0.4s;
+}
+
+.plats {
+    animation: anim_menu_card 0.8s;
+}
+
+.dessert {
+    animation: anim_menu_card 1.2s;
+}
+
+@keyframes anim_menu_card {
+    0% {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(Opx);
+        opacity: 1;
+    }
+
+}
 
 
 p {
