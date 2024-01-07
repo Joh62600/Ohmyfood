@@ -264,7 +264,25 @@ a {
 
 }
 
+.heart_accueil {
+    position: absolute;
+    right: 55px;
+    bottom: 50px;
+    font-size: 1.3rem;
 
+    .fa-solid {
+        opacity: 0;
+        transition: all 0.4s ease-in-out;
+        background-image: linear-gradient(0deg, #9356dc 0%, #ff79da 100%);
+        background-clip: text;
+        color: transparent;
+        
+    }
+
+    .fa-solid:hover {
+        opacity: 1;
+    }
+}
 
 .nouveau_dispo {
     display: flex;
