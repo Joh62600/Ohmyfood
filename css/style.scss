@@ -534,4 +534,116 @@ font-size: 1.8rem;
     box-shadow: 0px 4px 15px 0px #00000059;
 
 }
+@media screen and (min-width:1024px) {
+    .function_container {
+        margin-left: 180px;
+    }
 
+    .function_card_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: 207px;
+        margin-left: 25px;
+    }
+
+    .restau {
+        padding-left: 180px;
+    }
+
+    .restau_card_container {
+        display: grid;
+        grid-template-columns: repeat(2, 35%);
+        gap: 40px 80px;
+        justify-items: center;
+        position: relative;
+        padding: 50px 0px;
+        margin: 0 auto;
+
+        a {
+            padding-left: 60px;
+            width: 100%;
+        }
+    }
+
+    .restau_card {
+        position: relative;
+        width: 100%;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .like {
+        position: absolute;
+        left: 400px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-items: flex-end;
+
+    }
+
+    .footer_link_dispo {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding-right: 40px;
+    }
+
+    .footer_title {
+        margin-right: 50px;
+    }
+
+    .img_dim {
+        width: 100%;
+        height: 240px;
+        display: flex;
+    }
+
+    .menu_dispo {
+        width: 1055px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu {
+        width: 1055px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu_container {
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu_content {
+        width: 634px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .exploration_container {
+        width: 100%;
+    }
+
+    .restau {
+        width: 100%;
+    }
+
+    .function_container {
+        width: 100%;
+    }
+}
