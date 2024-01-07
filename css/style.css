@@ -388,8 +388,9 @@ footer {
 
 .heart_menu {
   position: absolute;
-  right: 50px;
+  right: 120px;
   font-size: 1.8rem;
+  bottom: 20px;
 }
 .heart_menu .fa-solid {
   opacity: 0;
