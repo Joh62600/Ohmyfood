@@ -66,7 +66,7 @@
     opacity: 0;
   }
   100% {
-    transform: translateX(Opx);
+    transform: translateX(1px);
     opacity: 1;
   }
 }
@@ -154,6 +154,7 @@ h2 {
   transition: opacity 0.3s ease-in-out;
   border: none;
   margin-top: 18px;
+  font-size: 17px;
 }
 
 .exploration_btn:hover {
@@ -441,6 +442,8 @@ footer {
   margin-bottom: 12px;
   position: relative;
   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu_content_card h3,
 .menu_content_card p {
@@ -451,6 +454,9 @@ footer {
 }
 .menu_content_card h3 {
   padding-top: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .animation_menu {
@@ -485,6 +491,9 @@ footer {
   justify-content: space-between;
   width: 95%;
   transition: ease-in-out 0.3s;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .price span {
   font-weight: bold;
@@ -512,6 +521,7 @@ footer {
   color: white;
   transition: opacity 0.3s ease-in-out;
   border: none;
+  font-size: 17px;
 }
 
 .btn_menu:hover {
